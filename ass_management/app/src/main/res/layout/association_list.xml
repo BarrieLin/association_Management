@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ass_name"
+                android:layout_width="100dp"
+                android:text="党委宣传部"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ass_type"
+                android:text="社团类型">
+
+            </TextView>
+            <TextView
+                android:id="@+id/ass_leader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社团现任社长">
+
+            </TextView>
+            <TextView
+                android:id="@+id/ass_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社团活动地点">
+            </TextView>
+            <TextView
+                android:gravity="right"
+                android:id="@+id/buildAss_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社团建立时间">
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
